@@ -89,11 +89,11 @@ WSGI_APPLICATION = 'ProyectoApi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'localhost',
-        'PORT':'3306',
+        'HOST': 'containers-us-west-99.railway.app',
+        'PORT':'7964',
         'USER':'root',
-        'PASSWORD':'3781204262Bb',
-        'NAME':'bdpet',
+        'PASSWORD':'1TgvgknpPU489PKlOwbM',
+        'NAME':'railway',
         'OPTIONS':{
             'init_command':"SET sql_mode='STRICT_TRANS_TABLES'"
         }
